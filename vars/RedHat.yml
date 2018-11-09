@@ -12,8 +12,13 @@ mariadb_config_network: /etc/my.cnf.d/network.cnf
 mariadb_config_server: /etc/my.cnf.d/server.cnf
 mariadb_config_custom: /etc/my.cnf.d/custom.cnf
 
-mariadb_databases: []
-mariadb_users: []
+mariadb_databases:
+  - name: wordpress
+mariadb_users:
+  - name: wordpress
+    password: wordpress
+    priv: '*.*:ALL,GRANT'
+    
 mariadb_root_password: ''
 mariadb_mirror: yum.mariadb.org
 mariadb_version: '10.3'
