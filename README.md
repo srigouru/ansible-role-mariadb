@@ -1,7 +1,5 @@
 # Ansible role `mariadb`
 
-[![Build Status](https://travis-ci.org/bertvv/ansible-role-mariadb.svg?branch=master)](https://travis-ci.org/bertvv/ansible-role-mariadb)
-
 
 An Ansible role for managing MariaDB in RedHat-based distributions. Specifically, the responsibilities of this role are to:
 
@@ -112,33 +110,11 @@ mariadb_users:
 
 No dependencies.
 
-## Example Playbook
 
-See the [test playbook](https://github.com/bertvv/ansible-role-mariadb/blob/docker-tests/test.yml)
 
-## Testing
-
-Test code is stored in separate branches. See the appropriate README:
-
-- [Docker test environment](https://github.com/bertvv/ansible-role-mariadb/tree/docker-tests)
-- Ansible test environment (TODO)
+## Source Origin:
+- [Bert Van Vreckem](https://github.com/bertvv/) 
 
 ## License
 
-2 clause BSD
-
-## Contributors
-
-Issues, feature requests, ideas, suggestions, etc. are appreciated and can be posted in the Issues section.
-
-Pull requests are also very welcome. Please create a topic branch for your proposed changes. If you don’t, this will create conflicts in your fork when you synchronise changes after the merge. Don’t hesitate to add yourself to the contributor list below in your PR!
-
-- [Barry Britt](https://github.com/raznikk)
-- [Bert Van Vreckem](https://github.com/bertvv/) (Maintainer)
-- [Cédric Delgehier](https://github.com/cdelgehier)
-- [Louis Tournayre](https://github.com/louiznk)
-- [@piuma](https://github.com/piuma)
-- [Ripon Banik](https://github.com/riponbanik)
-- [Thomas Eylenbosch](https://github.com/EylenboschThomas)
-- [Tom Stechele](https://github.com/tomstechele)
-- [Vincenzo Castiglia](https://github.com/CastixGitHub)
+2-clause BSD license, see [LICENSE.md](LICENSE.md)
